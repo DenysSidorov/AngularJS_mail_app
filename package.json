@@ -1,0 +1,35 @@
+{
+  "name": "gmail-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "body-parser": "^1.8.2",
+    "bower": "1.7.1",
+    "compression": "^1.1.0",
+    "cors": "^2.2.0",
+    "crypto": "0.0.3",
+    "express": "^4.9.3",
+    "lodash": "3.x",
+    "method-override": "^1.0.0",
+    "morgan": "^1.1.1",
+    "serve-favicon": "^2.0.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "faker": "^3.0.1",
+    "ramda": "^0.19.1"
+  },
+  "engines": {
+    "node": "0.12.7",
+    "npm": "3.3.9"
+  }
+}
